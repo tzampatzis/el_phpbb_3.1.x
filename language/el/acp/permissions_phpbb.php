@@ -158,9 +158,10 @@ $lang = array_merge($lang, array(
 	'ACL_M_SPLIT'	=> 'Μπορεί να διαχωρίσει θέματα',
 	'ACL_M_MERGE'	=> 'Μπορεί να συγχωνεύσει θέματα',
 
-	'ACL_M_INFO'	=> 'Μπορεί να βλέπει λεπτομέρειες θεμάτων,',
-	'ACL_M_WARN'	=> 'Μπορεί να προειδοποιήσει<br /><em>Αυτή η ρύθμιση ανατίθεται μόνο συνολικά. Δεν είναι με βάση τη Δ. Συζήτηση.</em>', // This moderator setting is only global (and not local)
-	'ACL_M_BAN'		=> 'Μπορεί να διαχειριστεί αποκλεισμούς<br /><em>Αυτή η ρύθμιση ανατίθεται μόνο συνολικά. Δεν είναι με βάση τη Δ. Συζήτηση.</em>', // This moderator setting is only global (and not local)
+	'ACL_M_INFO'		=> 'Μπορεί να βλέπει λεπτομέρειες θεμάτων',
+	'ACL_M_WARN'		=> 'Μπορεί να προειδοποιήσει<br /><em>Αυτή η ρύθμιση ανατίθεται μόνο συνολικά. Δεν είναι με βάση τη Δ. Συζήτηση.</em>', // This moderator setting is only global (and not local)
+	'ACL_M_PM_REPORT'	=> 'Μπορεί να κλείσει και να διαγράψει αναφορές για προσωπικά μηνύματα<br /><em>Αυτή η ρύθμιση ανατίθεται μόνο συνολικά. Δεν είναι με βάση τη Δ. Συζήτηση.</em>', // This moderator setting is only global (and not local)
+	'ACL_M_BAN'			=> 'Μπορεί να διαχειριστεί αποκλεισμούς<br /><em>Αυτή η ρύθμιση ανατίθεται μόνο συνολικά. Δεν είναι με βάση τη Δ. Συζήτηση.</em>', // This moderator setting is only global (and not local)
 ));
 
 // Admin Permissions

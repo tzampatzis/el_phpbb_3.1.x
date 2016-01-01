@@ -332,6 +332,7 @@ $lang = array_merge($lang, array(
 	'IMAGE_FILETYPE_INVALID'	=> 'Ο τύπος αρχείου εικόνας %d για το mimetype %s δεν υποστηρίζεται.',
 	'IMAGE_FILETYPE_MISMATCH'	=> 'Ανακριβής τύπος αρχείου: αναμενόμενη επέκταση %1$s όμως η επέκταση %2$s δίνετε.',
 	'IN'						=> 'σε',
+	'INACTIVE'					=> 'Ανενεργό',
 	'INDEX'						=> 'Ευρετήριο σελίδας',
 	'INFORMATION'				=> 'Πληροφορίες',
 	'INSECURE_REDIRECT'			=> 'Προσπάθεια ανακατεύθυνσης σε δυνητικά ανασφαλή διεύθυνση URL.',
@@ -470,7 +471,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TOPIC_DISAPPROVED'	=> '<strong>Απορρίφθηκε θέμα </strong>:',
 	'NOTIFICATION_TOPIC_IN_QUEUE'		=> '<strong>Αίτημα έγκρισης θέματος</strong> από %1$s:',
 	'NOTIFICATION_TYPE_NOT_EXIST'		=> 'Ο τύπος ειδοποίησης "%s" λείπει από το σύστημα αρχείων.',
-	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '<strong>Απαιτείται ενεργοποίηση</strong> για πρόσφατο εγγεγραμμένο μέλος: “%1$s”',
+	'NOTIFICATION_ADMIN_ACTIVATE_USER'	=> '<strong>Απαιτείται ενεργοποίηση</strong> για απενεργοποιημένο ή πρόσφατο εγγεγραμμένο μέλος: “%1$s”',
 	// Used in conjuction with NOTIFICATION_BOOKMARK and NOTIFICATION_POST.
 	'NOTIFICATION_MANY_OTHERS'			=> 'άλλα',
 	'NOTIFICATION_X_OTHERS'				=> array(
