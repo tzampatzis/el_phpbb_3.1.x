@@ -88,4 +88,5 @@ $lang = array_merge($lang, array(
 	'UNINSTALL_DEFAULT'		=> 'Δεν μπορείτε να καταργήσετε το προεπιλεγμένο στυλ.',
 	
 	'BROWSE_STYLES_DATABASE'	=> 'Περιήγηση στη βάση θεμάτων',
+
 ));

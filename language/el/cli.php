@@ -57,9 +57,9 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_DELETE_CONFIG'				=> 'Διαγράφει μια επιλογή ρύθμισης',
 	'CLI_DESCRIPTION_DISABLE_EXTENSION'			=> 'Απενεργοποιεί τη συγκεκριμένη επέκταση.',
 	'CLI_DESCRIPTION_ENABLE_EXTENSION'			=> 'Ενεργοποιεί τη συγκεκριμένη επέκταση.',
-	'CLI_DESCRIPTION_FIND_MIGRATIONS'			=> 'Βρίσκει ενσωματώσεις που δεν ήταν εξαρτημένες.',
+	'CLI_DESCRIPTION_FIND_MIGRATIONS'			=> 'Βρίσκει ενσωματώσεις που δεν εξαρτώταν από άλλες.',
 	'CLI_DESCRIPTION_GET_CONFIG'				=> 'Παίρνει μια τιμή επιλογής ρύθμισης',
-	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> 'Προσαυξάνει μια τιμή επιλογής ρύθμισης',
+	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> 'Προσαυξάνει ακέραια μια τιμή επιλογής ρύθμισης',
 	'CLI_DESCRIPTION_LIST_EXTENSIONS'			=> 'Απαριθμεί όλες τις επεκτάσεις στη βάση δεδομένων και στο σύστημα αρχείων.',
 	'CLI_DESCRIPTION_OPTION_SAFE_MODE'			=> 'Εκτέλεση σε ασφαλή λειτουργία (χωρίς επεκτάσεις).',
 	'CLI_DESCRIPTION_OPTION_SHELL'				=> 'Εκκίνηση του κελύφους.',
@@ -81,4 +81,9 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSIONS_ENABLED'			=> 'Ενεργοποιημένο',
 
 	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Επιτυχής επανυπολογισμός όλων των hashes ηλεκτρονικών ταχυδρομείων.',
+));
+
+// Additional help for commands.
+$lang = array_merge($lang, array(
+	'CLI_HELP_CRON_RUN'			=> $lang['CLI_DESCRIPTION_CRON_RUN'] . ' Μπορείτε προαιρετικά να ορίσετε ένα όνομα για την επαναλαμβανόμενη διαδικασία για την εκτέλεση μόνο της συγκεκριμένης επαναλαμβανόμενης διαδικασίας.',
 ));

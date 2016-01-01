@@ -342,7 +342,7 @@ $lang = array_merge($lang, array(
 	'NOTIFICATION_TYPE_QUOTE'							=> 'Κάποιος σας παρέθεσε σε μια δημοσίευση',
 	'NOTIFICATION_TYPE_REPORT'							=> 'Κάποιος ανέφερε μια δημοσίευση',
 	'NOTIFICATION_TYPE_TOPIC'							=> 'Κάποιος δημιούργησε ένα θέμα σε μια Δ. Συζήτηση στην οποία είστε συνδρομητής',
-	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> 'Νέα εγγεγραμμένα μέλη χρειάζονται ενεργοποίηση',
+	'NOTIFICATION_TYPE_ADMIN_ACTIVATE_USER'				=> 'Μέλη που χρειάζονται ενεργοποίηση',
 
 	'NOTIFY_METHOD'					=> 'Μέθοδος ειδοποίησης',
 	'NOTIFY_METHOD_BOTH'			=> 'Και τα δυο',
