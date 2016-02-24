@@ -47,5 +47,5 @@ $lang = array_merge($lang, array(
 	'CONTROLLER_ARGUMENT_VALUE_MISSING'	=> 'Λείπει η τιμή για το όρισμα #%1$s: <strong>%3$s</strong> στην κλάση <strong>%2$s</strong>',
 	'CONTROLLER_NOT_SPECIFIED'			=> 'Κανένας ελεγκτής δεν έχει καθορισθεί.',
 	'CONTROLLER_METHOD_NOT_SPECIFIED'	=> 'Καμία μέθοδος δεν έχει καθορισθεί για τον ελεγκτή.',
-	'CONTROLLER_SERVICE_UNDEFINED'		=> 'Η υπηρεσία για τον ελεγκτή "<strong>%s</strong>" δεν έχει προσδιοριστεί στο ./config/services.yml.',
+	'CONTROLLER_SERVICE_UNDEFINED'		=> 'Η υπηρεσία για τον ελεγκτή “<strong>%s</strong>” δεν έχει προσδιοριστεί στο ./config/services.yml.',
 ));
