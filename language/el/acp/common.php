@@ -597,6 +597,7 @@ $lang = array_merge($lang, array(
 
 	'LOG_ERROR_JABBER'		=> '<strong>Σφάλμα Jabber</strong><br />» %s',
 	'LOG_ERROR_EMAIL'		=> '<strong>Σφάλμα ηλεκτρονικού ταχυδρομείου</strong><br />» %s',
+	'LOG_ERROR_CAPTCHA'		=> '<strong>Σφάλμα CAPTCHA</strong><br />» %s',
 
 	'LOG_FORUM_ADD'							=> '<strong>Δημιουργήθηκε νέα Δ. Συζήτησης</strong><br />» %s',
 	'LOG_FORUM_COPIED_PERMISSIONS'			=> '<strong>Αντιγράφτηκαν Δ. Συζήτησης δικαιώματα</strong> από %1$s<br />» %2$s',
