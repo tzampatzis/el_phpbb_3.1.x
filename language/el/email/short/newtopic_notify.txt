@@ -1,4 +1,4 @@
-Subject: Ειδοποίηση νέου θέματος - „{FORUM_NAME}“
+Subject: Ειδοποίηση νέου θέματος - "{FORUM_NAME}"
 
 Γεια σας {USERNAME},
 
