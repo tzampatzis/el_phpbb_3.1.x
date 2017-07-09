@@ -103,6 +103,7 @@ $lang = array_merge($lang, array(
 	'AVATAR_DRIVER_UPLOAD_TITLE'	=> 'Φόρτωση άβαταρ',
 	'AVATAR_DRIVER_UPLOAD_EXPLAIN'	=> 'Φορτώστε το δικό σας άβαταρ.',
 	'AVATAR_EXPLAIN'				=> 'Μέγιστες διαστάσεις: πλάτος: %1$s, ύψος: %2$s, μέγεθος αρχείου: %3$.2f KiB.',
+	'AVATAR_EXPLAIN_NO_FILESIZE'	=> 'Μέγιστες διαστάσεις: πλάτος: %1$s, ύψος: %2$s.',
 	'AVATAR_FEATURES_DISABLED'		=> 'Η χρήση άβαταρ είναι προσωρινά απενεργοποιημένη.',
 	'AVATAR_GALLERY'				=> 'Τοπική γκαλερί',
 	'AVATAR_GENERAL_UPLOAD_ERROR'	=> 'Ανεπιτυχής φόρτωση άβαταρ στο %s.',
