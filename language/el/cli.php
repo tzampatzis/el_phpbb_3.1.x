@@ -58,6 +58,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_DISABLE_EXTENSION'			=> 'Απενεργοποιεί τη συγκεκριμένη επέκταση.',
 	'CLI_DESCRIPTION_ENABLE_EXTENSION'			=> 'Ενεργοποιεί τη συγκεκριμένη επέκταση.',
 	'CLI_DESCRIPTION_FIND_MIGRATIONS'			=> 'Βρίσκει ενσωματώσεις που δεν εξαρτώταν από άλλες.',
+	'CLI_DESCRIPTION_FIX_LEFT_RIGHT_IDS'		=> 'Επισκευάζει την δενδρική δομή των Δ. συζητήσεων και των μονάδων.',
 	'CLI_DESCRIPTION_GET_CONFIG'				=> 'Παίρνει μια τιμή επιλογής ρύθμισης',
 	'CLI_DESCRIPTION_INCREMENT_CONFIG'			=> 'Προσαυξάνει ακέραια μια τιμή επιλογής ρύθμισης',
 	'CLI_DESCRIPTION_LIST_EXTENSIONS'			=> 'Απαριθμεί όλες τις επεκτάσεις στη βάση δεδομένων και στο σύστημα αρχείων.',
@@ -67,6 +68,7 @@ $lang = array_merge($lang, array(
 	'CLI_DESCRIPTION_RECALCULATE_EMAIL_HASH'	=> 'Επανυπολογίζει τη στήλη user_email_hash του πίνακα των μελών.',
 	'CLI_DESCRIPTION_SET_ATOMIC_CONFIG'			=> 'Καθορίζει μια τιμή επιλογής ρύθμισης μόνον εάν η παλιά ταιριάζει με την τρέχουσα τιμή',
 	'CLI_DESCRIPTION_SET_CONFIG'				=> 'Καθορίζει μια τιμή επιλογής ρύθμισης',
+	'CLI_DESCRIPTION_UPDATE_HASH_BCRYPT'		=> 'Ενημερώνει ληγμένους κατακερματισμένους κωδικούς για να αναδημιουργηθούν με τη λειτουργία bcrypt.',
 
 	'CLI_EXTENSION_DISABLE_FAILURE'		=> 'Δεν ήταν δυνατή η απενεργοποίηση της επέκτασης %s',
 	'CLI_EXTENSION_DISABLE_SUCCESS'		=> 'Επιτυχής απενεργοποίηση της επέκτασης %s',
@@ -80,7 +82,9 @@ $lang = array_merge($lang, array(
 	'CLI_EXTENSIONS_DISABLED'			=> 'Απενεργοποιημένο',
 	'CLI_EXTENSIONS_ENABLED'			=> 'Ενεργοποιημένο',
 
+	'CLI_FIXUP_FIX_LEFT_RIGHT_IDS_SUCCESS'		=> 'Επιτυχής επισκευή δενδρικής δομής Δ. συζητήσεων και μονάδων.',
 	'CLI_FIXUP_RECALCULATE_EMAIL_HASH_SUCCESS'	=> 'Επιτυχής επανυπολογισμός όλων των hashes ηλεκτρονικών ταχυδρομείων.',
+	'CLI_FIXUP_UPDATE_HASH_BCRYPT_SUCCESS'		=> 'Επιτυχής ενημέρωση ληγμένων κατακερματισμένων κωδικών με bcrypt.',
 ));
 
 // Additional help for commands.
