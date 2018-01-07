@@ -3,10 +3,12 @@ language: php
 php:
 # Test on PHP 5.5 only as it has ssl enabled on TravisCI
   - 5.5
+  - 7.0
+  - 7.1
 
 env:
   global:
-    - PHPBB_TAG="prep-release-3.1.11"      # CHANGE the tag to checkout for validation HERE
+    - PHPBB_TAG="3.1.x"      # CHANGE the tag to checkout for validation HERE
     - PHPBB_VERSION="3.1"            # CHANGE the main version of phpBB HERE - 3.0 or 3.1
     - PHPBB_LANGUAGE="el"            # CHANGE the language iso to validate HERE
 
