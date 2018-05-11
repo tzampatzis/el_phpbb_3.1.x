@@ -44,7 +44,7 @@ if (empty($lang) || !is_array($lang))
 //
 
 $lang = array_merge($lang, array(
-	'TRANSLATION_INFO'	=> '<br />Ελληνική μετάφραση από το <a href="http://phpbbgr.com/">phpbbgr.com</a>',
+	'TRANSLATION_INFO'	=> '<br>Ελληνική μετάφραση από το <a href="http://phpbbgr.com/">phpbbgr.com</a>',
 	'DIRECTION'			=> 'ltr',
 	'DATE_FORMAT'		=> '|d M Y|',	// 01 Ιαν 2007 (με τα σχετικά στοιχεία)
 	'DATETIME_FORMAT'	=> '|d M Y, H:i|',	// 01 Jan 2007, 13:37 (σχετική με την ημέρα ενεργοποιημένη)
